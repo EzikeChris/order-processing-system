@@ -26,3 +26,11 @@ Knex - SQL
 To use the application, you need to have PostgreSQL available locally. You then create a database for the app and include the connection link in the .env file. Just as shown in the .env.example
 
 
+## Running The App
+$ yarn run migrate && yarn run seed
+$ yarn run start
+
+API is accessible at `http://localhost:3000/v1`
+
+# watch mode
+$ yarn run start:dev
